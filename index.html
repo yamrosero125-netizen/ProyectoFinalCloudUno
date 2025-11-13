@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Chichilos - Pasto Nariño</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>🍽️ Chichilos</h1>
+                <span class="tagline">Sabores Especiales y Auténticos</span>
+            </div>
+            <nav>
+                <a href="#inicio">Inicio</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#menu">Menú</a>
+                <a href="#galeria">Galería</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">✈️ Boof el mejor Restaurante de Buenos aires</div>
+            <h2>Bienvenido a Chichilos</h2>
+            <p class="hero-text">Sabores auténticos que deleitan tu paladar en una sola mordida</p>
+            <p class="hero-subtitle">La mejor comida italiana en Buenos aires</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">Ver Menú</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <section id="nosotros" class="about">
+        <div class="container">
+            <h2>Sobre Nosotros</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>CANTINA CHICHILO DE BUENOS AIRES DESDE HACE 65 AÑOS AL SERVICIO DEL BUEN COMER ATENDIDOS POR SUS DUEÑOS EN UN BARRIO DE FAMOSOS</p>
+                    <p>"LA PATERNAL". ADEMAS LA PRODUCION DE POL-KA LA ELIGIO PARA LA APERTURA DE LA NOVELA ILUSIONES Y EL SODERO DE MI VIDA, ADEMAS ES EL LUGAR PREFERIDO DE DIEGO MARADONA.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop" alt="Restaurante Chichilos">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <h2>Nuestro Menú</h2>
+            <p class="section-subtitle">Platos deliciosos preparados con el corazon y con mucho amor</p>
+            
+            <div class="menu-categories">
+                <button class="category-btn active" data-category="all">Todos</button>
+            </div>
+            
+            <div class="menu-grid">
+                <div class="menu-item" data-category="principales">
+                    <div class="menu-image">
+                        <img src="https://th.bing.com/th/id/R.c1caddf877aec5a3002f617347c095c8?rik=bP3j2ybiXikKPg&pid=ImgRaw&r=0" alt="Mondongo">
+                    </div>
+                    <div class="menu-content">
+                        <h3>Mondongo</h3>
+                        <p>Mondongo a la italiana con hierbas frescas</p>
+                        <div class="menu-footer">
+                            <span class="price">$20.000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="principales">
+                    <div class="menu-image">
+                        <img src="https://cdn0.recetasgratis.net/es/posts/2/4/2/rinones_al_vino_blanco_faciles_39242_orig.jpg" alt="Riñones al vino blanco">
+                    </div>
+                    <div class="menu-content">
+                        <h3>Riñones al Vino</h3>
+                        <p>Riñones al vino blanco con especias</p>
+                        <div class="menu-footer">
+                            <span class="price">$12.000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="pastas">
+                    <div class="menu-image">
+                        <img src="https://walac.pe/wp-content/uploads/2019/05/tallarines-verdes-id5654_1-w1200-h800-m3.jpg" alt="Tallarines">
+                    </div>
+                    <div class="menu-content">
+                        <h3>Tallarines Premium</h3>
+                        <p>Tallarines al verdeo con longaniza italiana</p>
+                        <div class="menu-footer">
+                            <span class="price">$18.000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="principales">
+                    <div class="menu-image">
+                        <img src="https://www.clarin.com/img/2022/09/02/1K7ZrKZ0h_1200x630__1.jpg" alt="Calamarettis">
+                    </div>
+                    <div class="menu-content">
+                        <h3>Calamarettis</h3>
+                        <p>Calamarettis a la escarpetta con salsa especial</p>
+                        <div class="menu-footer">
+                            <span class="price">$14.500</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="pastas">
+                    <div class="menu-image">
